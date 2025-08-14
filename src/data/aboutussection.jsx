@@ -7,7 +7,7 @@ export const aboutusSection = {
       berlokasi di Kanigoro, Blitar, Jawa Timur. Didirikan pada tahun 2008, 
       perusahaan ini hadir untuk memenuhi kebutuhan pasar akan telur berkualitas tinggi dengan harga bersaing. 
       Berbekal pengalaman lebih dari satu dekade, Indo Jaya Telur telah membangun reputasi sebagai mitra terpercaya bagi pedagang grosir, restoran, 
-      hingga konsumen rumah tangga.
+      hingga konsumen rumah tangga. Kami fokus melayani supplier telur berskala besar, khususnya untuk wilayah Jakarta dan sekitarnya. Kami juga melayani supplier lokal dari daerah seperti Sidoarjo dan Surabaya.
     </p>
 
     <p class="about-us-content">

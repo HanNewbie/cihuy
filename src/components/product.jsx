@@ -42,16 +42,12 @@ export default function PackagingSection() {
         <div>
           <img src="/images/super.jpg" alt="super" />
         </div>
-        <div>
-          <img src="/images/bebek.jpg" alt="bebek" />
-        </div>
       </div>
       <ul>
         <ul class="daftar">
         <li><strong>Telur Ayam Biasa</strong> – Pilihan ekonomis dengan kualitas terjaga.</li>
         <li><strong>Telur Ayam Super</strong> - Berukuran lebih besar dengan mutu premium. lebih besar ukurannya sedikit lebih gelap cangkaknya, 
         kuning telurnya berwarna oren atau biasa disebut telur omega</li>
-        <li><strong>Telur Bebek</strong> – Memiliki cita rasa khas dan kandungan gizi tinggi, cocok untuk kebutuhan kuliner tertentu.</li>
         </ul>
         <p class="about-us-content">
         Dengan komitmen pada kualitas, ketepatan distribusi, dan pelayanan terbaik, 

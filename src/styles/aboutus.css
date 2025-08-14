@@ -65,5 +65,14 @@ ul + h3 {
   text-align: justify;        /* rata kanan kiri */
 }
 
-
+.packaging-grid {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  gap: 20px;               /* jarak antar gambar */
+}
+.packaging-grid div img {
+  max-width: 100%;         /* biar responsif */
+  height: auto;
+} 
 
