@@ -1,0 +1,102 @@
+/* Section utama */
+.testimony-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Baris */
+.marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-row1 {
+  background: linear-gradient(to right, #f7faff, #eef4ff);
+  padding: 1rem 0;
+}
+
+.marquee-row2 {
+  background: linear-gradient(to right, #fff9f5, #fff2e6);
+  padding: 1rem 0;
+}
+
+/* Track animasi */
+.marquee-track {
+  display: flex;
+  gap: 2rem;
+  width: max-content; /* penting supaya translate 50% menutup seluruh track */
+  animation: scroll-left 40s linear infinite;
+}
+
+.marquee-track.reverse {
+  animation: scroll-right 40s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* -50% dari lebar track sendiri */
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+
+/* Card testimonial */
+.marquee-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  min-width: 320px;
+  max-width: 350px;
+}
+
+/* Foto profil */
+.marquee-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e0e0e0;
+}
+
+/* Info teks */
+.marquee-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.marquee-text {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.marquee-meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.marquee-name {
+  font-weight: 600;
+  color: #222;
+}
+
+.marquee-dot {
+  margin: 0 0.3rem;
+}
+
+.marquee-role {
+  font-weight: 400;
+}

@@ -1,0 +1,68 @@
+.client-slider-container {
+  padding: 40px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.client-slider-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Default: laptop 5 kolom */
+  gap: 20px;
+  justify-items: center;
+}
+
+.client-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client-logo {
+  width: 100px; /* lebar seragam */
+  height: 80px; /* tinggi seragam */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.client-caption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+  .client-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom di tablet */
+  }
+}
+
+/* HP */
+@media screen and (max-width: 600px) {
+  .client-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom di HP */
+  }
+
+  .client-logo {
+    width: 80px;
+    height: 60px;
+  }
+
+  .client-caption {
+    font-size: 0.8rem;
+  }
+}

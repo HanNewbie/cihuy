@@ -1,0 +1,10 @@
+#footer,
+.footer-wrapper {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
