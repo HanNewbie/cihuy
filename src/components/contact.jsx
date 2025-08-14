@@ -15,7 +15,7 @@ function contact() {
                 </div>
                 <div className="info-section">
                     <h3>Contact</h3>
-                    <p><b>TELEPON : </b>+62 895-4240-11634</p>
+                    <p><b>TELEPON : </b>+62 895-4240-11634 (ISAN)</p>
                 </div>
             </div>
         </div>

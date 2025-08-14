@@ -46,8 +46,7 @@ export default function PackagingSection() {
       <ul>
         <ul class="daftar">
         <li><strong>Telur Ayam Biasa</strong> – Pilihan ekonomis dengan kualitas terjaga.</li>
-        <li><strong>Telur Ayam Super</strong> - Berukuran lebih besar dengan mutu premium. lebih besar ukurannya sedikit lebih gelap cangkaknya, 
-        kuning telurnya berwarna oren atau biasa disebut telur omega</li>
+        <li><strong>Telur Ayam Super</strong> - Telor premium atau omega berukuran sedikit lebih kecil dan kualitas kuning telor berwarna orange</li>
         </ul>
         <p class="about-us-content">
         Dengan komitmen pada kualitas, ketepatan distribusi, dan pelayanan terbaik, 
